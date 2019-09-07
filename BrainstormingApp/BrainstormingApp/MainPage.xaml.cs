@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BrainstormingApp.Model;
+using SQLite;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -16,6 +18,21 @@ namespace BrainstormingApp
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        protected override void OnAppearing()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+            {
+                conn.CreateTable<Idea>();
+                var ideas = conn.Table<Idea>().ToList();
+                ideaList.ItemsSource = ideas;
+            }
+        }
+
+        private void AddButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CreatePage());
         }
     }
 }
