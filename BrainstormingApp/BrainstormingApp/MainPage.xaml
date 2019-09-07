@@ -7,7 +7,7 @@
              x:Class="BrainstormingApp.MainPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="addButton"
-                     Text="Add"
+                     Text="Přidat"
                      Clicked="AddButton_Clicked"/>
     </ContentPage.ToolbarItems>
     <StackLayout>

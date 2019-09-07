@@ -11,14 +11,13 @@ namespace BrainstormingApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MyTabbedPage());
         }
         public App(string dbLocation)
         {
             DatabaseLocation = dbLocation;
             InitializeComponent();
-            MainPage = new NavigationPage(new MainPage());
-
+            MainPage = new NavigationPage(new MyTabbedPage());
         }
         protected override void OnStart()
         {

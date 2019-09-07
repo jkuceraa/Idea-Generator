@@ -34,9 +34,9 @@ namespace BrainstormingApp
                 var ideas = conn.Table<Idea>().ToList();                
                 int rows = conn.Insert(newIdea);
                 if (rows > 0)
-                    DisplayAlert("Success", "Data added successfuly", "OK");
+                    DisplayAlert("Úspěch", "Data úspěšně přidána", "OK");
                 else
-                    DisplayAlert("Fail", "Failed to insert", "OK");
+                    DisplayAlert("Chyba", "Data nebylo možné přidat", "OK");
             }
         }
     }

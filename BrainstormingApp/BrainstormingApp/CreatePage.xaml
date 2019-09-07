@@ -8,20 +8,20 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand">
             <Entry x:Name="IdeaName"
-                   Placeholder="Idea name"/>
+                   Placeholder="Název nápadu"/>
             <Editor x:Name="IdeaDescription"
-                    Placeholder="Idea description"/>
+                    Placeholder="Popis nápadu"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Label Text="Favorite"
+                <Label Text="Oblíbený"
                        VerticalOptions="CenterAndExpand"/>
                 <Switch x:Name="FavoriteSwitch"/>
             </Grid>
             <Button x:Name="AddButton"
-                    Text="Add"
+                    Text="Přidat"
                     Clicked="AddButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
