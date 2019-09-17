@@ -17,7 +17,7 @@ namespace BrainstormingApp
         public CreatePage()
         {
             InitializeComponent();
-            
+
         }
 
         private void AddButton_Clicked(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace BrainstormingApp
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
             {
                 conn.CreateTable<Idea>();
-                var ideas = conn.Table<Idea>().ToList();                
+                var ideas = conn.Table<Idea>().ToList();
                 int rows = conn.Insert(newIdea);
                 if (rows > 0)
                     DisplayAlert("Úspěch", "Data úspěšně přidána", "OK");

@@ -4,9 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             xmlns:local="clr-namespace:BrainstormingApp"
+            xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
             mc:Ignorable="d"
              x:Class="BrainstormingApp.MyTabbedPage">
-    <local:MainPage Title="Seznam"/>
-    <local:Methods Title="Metody"/>
-    <local:Settings Title="Nastavení"/>
+    <local:MainPage Title="{translator:Translate List}"/>
+    <local:Methods Title="{translator:Translate Methods}"/>
+    <local:Settings Title="{translator:Translate Settings}"/>
 </TabbedPage>

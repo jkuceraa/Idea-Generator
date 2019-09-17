@@ -61,11 +61,110 @@ namespace BrainstormingApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hello from the other side.
+        ///   Looks up a localized string similar to Add.
         /// </summary>
-        internal static string HelloWorld {
+        internal static string Add {
             get {
-                return ResourceManager.GetString("HelloWorld", resourceCulture);
+                return ResourceManager.GetString("Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to and.
+        /// </summary>
+        internal static string And {
+            get {
+                return ResourceManager.GetString("And", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Favorite.
+        /// </summary>
+        internal static string Favorite {
+            get {
+                return ResourceManager.GetString("Favorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Idea description.
+        /// </summary>
+        internal static string IdeaDescription {
+            get {
+                return ResourceManager.GetString("IdeaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Idea name.
+        /// </summary>
+        internal static string IdeaName {
+            get {
+                return ResourceManager.GetString("IdeaName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to List.
+        /// </summary>
+        internal static string List {
+            get {
+                return ResourceManager.GetString("List", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mash up.
+        /// </summary>
+        internal static string MashUp {
+            get {
+                return ResourceManager.GetString("MashUp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two.
+        /// </summary>
+        internal static string MashUpDescribe {
+            get {
+                return ResourceManager.GetString("MashUpDescribe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You need at least two ideas to use this method..
+        /// </summary>
+        internal static string MashUpNotEnough {
+            get {
+                return ResourceManager.GetString("MashUpNotEnough", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Methods.
+        /// </summary>
+        internal static string Methods {
+            get {
+                return ResourceManager.GetString("Methods", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the name of the new idea.
+        /// </summary>
+        internal static string NewIdeaName {
+            get {
+                return ResourceManager.GetString("NewIdeaName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Settings.
+        /// </summary>
+        internal static string Settings {
+            get {
+                return ResourceManager.GetString("Settings", resourceCulture);
             }
         }
     }

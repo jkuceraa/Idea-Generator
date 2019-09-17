@@ -4,24 +4,26 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="BrainstormingApp.CreatePage">
+             x:Class="BrainstormingApp.CreatePage"
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand">
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     x:Name="containerCreatePage">
             <Entry x:Name="IdeaName"
-                   Placeholder="Název nápadu"/>
+                   Placeholder="{translator:Translate IdeaName}"/>
             <Editor x:Name="IdeaDescription"
-                    Placeholder="Popis nápadu"/>
+                    Placeholder="{translator:Translate IdeaDescription}"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Label Text="Oblíbený"
+                <Label Text="{translator:Translate Favorite}"
                        VerticalOptions="CenterAndExpand"/>
                 <Switch x:Name="FavoriteSwitch"/>
             </Grid>
             <Button x:Name="AddButton"
-                    Text="Přidat"
+                    Text="{translator:Translate Add}"
                     Clicked="AddButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

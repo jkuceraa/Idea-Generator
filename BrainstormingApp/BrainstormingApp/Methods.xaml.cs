@@ -16,5 +16,10 @@ namespace BrainstormingApp
         {
             InitializeComponent();
         }
+
+        private void MashUpButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MashUpPage());
+        }
     }
 }

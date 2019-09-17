@@ -4,12 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
              x:Class="BrainstormingApp.Methods">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="{translator:Translate MashUp}"
+                    x:Name="MashUpButton"
+                    Clicked="MashUpButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

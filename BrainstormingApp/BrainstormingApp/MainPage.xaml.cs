@@ -18,17 +18,12 @@ namespace BrainstormingApp
         public MainPage()
         {
             InitializeComponent();
-            
+
         }
 
         protected override void OnAppearing()
         {
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
-            {
-                conn.CreateTable<Idea>();
-                var ideas = conn.Table<Idea>().ToList();
-                ideaList.ItemsSource = ideas;
-            }
+            ideaList.ItemsSource = Idea.GetIdeas();
         }
 
         private void AddButton_Clicked(object sender, EventArgs e)

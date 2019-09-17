@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
+             x:Class="BrainstormingApp.MashUpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{translator:Translate MashUp}"/>
+            <Label Text="{translator:Translate MashUpDescribe}"/>
+            <Label Text="{translator:Translate MashUpNotEnough}"
+                   IsVisible="False"
+                   x:Name="NotEnoughErrorLabel"/>
+            <Label x:Name="Idea1"/>
+            <Label Text="{translator:Translate And}"/>
+            <Label x:Name="Idea2"/>
+            <Entry x:Name="NewIdeaName"
+                   Placeholder="{translator:Translate NewIdeaName}"/>
+            <Button x:Name="SubmitButton"
+                    Clicked="SubmitButton_Clicked"
+                    Text="{translator:Translate Add}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

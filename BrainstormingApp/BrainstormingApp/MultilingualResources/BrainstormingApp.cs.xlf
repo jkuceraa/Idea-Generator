@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="cs" original="BRAINSTORMINGAPP/RESOURCES/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="BRAINSTORMINGAPP/RESOURCES/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="Add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated">Přidat</target>
+        </trans-unit>
+        <trans-unit id="Favorite" translate="yes" xml:space="preserve">
+          <source>Favorite</source>
+          <target state="translated">Oblíbený</target>
+        </trans-unit>
+        <trans-unit id="IdeaDescription" translate="yes" xml:space="preserve">
+          <source>Idea description</source>
+          <target state="translated">Popis nápadu</target>
+        </trans-unit>
+        <trans-unit id="IdeaName" translate="yes" xml:space="preserve">
+          <source>Idea name</source>
+          <target state="translated">Název nápadu</target>
+        </trans-unit>
+        <trans-unit id="List" translate="yes" xml:space="preserve">
+          <source>List</source>
+          <target state="translated">Seznam</target>
+        </trans-unit>
+        <trans-unit id="Methods" translate="yes" xml:space="preserve">
+          <source>Methods</source>
+          <target state="translated">Metody</target>
+        </trans-unit>
+        <trans-unit id="Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Nastavení</target>
+        </trans-unit>
+        <trans-unit id="MashUp" translate="yes" xml:space="preserve">
+          <source>Mash up</source>
+          <target state="new">Mash up</target>
+        </trans-unit>
+        <trans-unit id="And" translate="yes" xml:space="preserve">
+          <source>and</source>
+          <target state="new">and</target>
+        </trans-unit>
+        <trans-unit id="MashUpNotEnough" translate="yes" xml:space="preserve">
+          <source>You need at least two ideas to use this method.</source>
+          <target state="new">You need at least two ideas to use this method.</target>
+        </trans-unit>
+        <trans-unit id="NewIdeaName" translate="yes" xml:space="preserve">
+          <source>Enter the name of the new idea</source>
+          <target state="new">Enter the name of the new idea</target>
+        </trans-unit>
+        <trans-unit id="MashUpDescribe" translate="yes" xml:space="preserve">
+          <source>Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two</source>
+          <target state="new">Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

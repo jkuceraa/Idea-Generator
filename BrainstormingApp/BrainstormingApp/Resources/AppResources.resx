@@ -117,7 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HelloWorld" xml:space="preserve">
-    <value>Hello from the other side</value>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="IdeaDescription" xml:space="preserve">
+    <value>Idea description</value>
+  </data>
+  <data name="IdeaName" xml:space="preserve">
+    <value>Idea name</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="MashUp" xml:space="preserve">
+    <value>Mash up</value>
+  </data>
+  <data name="MashUpDescribe" xml:space="preserve">
+    <value>Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two</value>
+  </data>
+  <data name="MashUpNotEnough" xml:space="preserve">
+    <value>You need at least two ideas to use this method.</value>
+  </data>
+  <data name="Methods" xml:space="preserve">
+    <value>Methods</value>
+  </data>
+  <data name="NewIdeaName" xml:space="preserve">
+    <value>Enter the name of the new idea</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
   </data>
 </root>
