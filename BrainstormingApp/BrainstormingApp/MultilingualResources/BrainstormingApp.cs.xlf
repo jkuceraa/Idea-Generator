@@ -54,6 +54,10 @@
           <source>Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two</source>
           <target state="new">Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two</target>
         </trans-unit>
+        <trans-unit id="RelatedWords" translate="yes" xml:space="preserve">
+          <source>Related words</source>
+          <target state="new">Related words</target>
+        </trans-unit>
       </group>
     </body>
   </file>

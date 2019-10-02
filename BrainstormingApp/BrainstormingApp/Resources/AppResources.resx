@@ -150,6 +150,9 @@
   <data name="NewIdeaName" xml:space="preserve">
     <value>Enter the name of the new idea</value>
   </data>
+  <data name="RelatedWords" xml:space="preserve">
+    <value>Related words</value>
+  </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
   </data>

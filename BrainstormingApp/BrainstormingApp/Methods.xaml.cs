@@ -21,5 +21,10 @@ namespace BrainstormingApp
         {
             Navigation.PushAsync(new MashUpPage());
         }
+
+        private void RelatedWordsButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RelatedWords());
+        }
     }
 }

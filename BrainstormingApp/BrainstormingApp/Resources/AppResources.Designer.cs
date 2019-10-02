@@ -160,6 +160,15 @@ namespace BrainstormingApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Related words.
+        /// </summary>
+        internal static string RelatedWords {
+            get {
+                return ResourceManager.GetString("RelatedWords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Settings.
         /// </summary>
         internal static string Settings {
