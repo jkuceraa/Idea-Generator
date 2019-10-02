@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BrainstormingApp.RelatedPage"
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{translator:Translate RelatedWords}"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+                <Label Text="{translator:Translate RelatedWordsDescribe}"
+                   HorizontalOptions="Center"/>
+            <Entry Placeholder="{translator:Translate EnterFive}"
+                   x:Name="WordsAdder"/>
+            <Label x:Name="WordsList"
+                   IsVisible="False"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   FontSize="Medium"/>
+            <Entry Placeholder="{translator:Translate EnterIdea}"
+                   x:Name="IdeaAdder"
+                   IsVisible="False"/>
+            <Button Text="{translator:Translate Confirm}"
+                    x:Name="ConfirmButton"
+                    Clicked="ConfirmButton_Clicked"/>
+            <Button Text="{translator:Translate Add}"
+                    x:Name="AddButton"
+                    IsVisible="False"
+                    Clicked="AddButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -11,9 +11,10 @@
             <Button Text="{translator:Translate MashUp}"
                     x:Name="MashUpButton"
                     Clicked="MashUpButton_Clicked"/>
-            <Button Text="{translator:Translate RelatedWords}"
-                    x:Name="RelatedWordsButton"
-                    Clicked="RelatedWordsButton_Clicked"/>
+          <Button Text="{translator:Translate RelatedWords}"
+                    x:Name="RelatedButton"
+                    Clicked="RelatedButton_Clicked"/>
+          
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

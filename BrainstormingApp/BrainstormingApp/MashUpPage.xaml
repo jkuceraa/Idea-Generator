@@ -7,15 +7,25 @@
              xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
              x:Class="BrainstormingApp.MashUpPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="{translator:Translate MashUp}"/>
-            <Label Text="{translator:Translate MashUpDescribe}"/>
+        <StackLayout HorizontalOptions="Center">
+            <Label Text="{translator:Translate MashUp}"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Label Text="{translator:Translate MashUpDescribe}"
+                   HorizontalOptions="Center"/>
             <Label Text="{translator:Translate MashUpNotEnough}"
+                   HorizontalOptions="Center"
                    IsVisible="False"
                    x:Name="NotEnoughErrorLabel"/>
-            <Label x:Name="Idea1"/>
-            <Label Text="{translator:Translate And}"/>
-            <Label x:Name="Idea2"/>
+            <Label x:Name="Idea1"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
+            <Label Text="{translator:Translate And}"
+                   HorizontalOptions="Center"/>
+            <Label x:Name="Idea2"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
             <Entry x:Name="NewIdeaName"
                    Placeholder="{translator:Translate NewIdeaName}"/>
             <Button x:Name="SubmitButton"

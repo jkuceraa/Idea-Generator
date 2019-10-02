@@ -58,6 +58,22 @@
           <source>Related words</source>
           <target state="new">Related words</target>
         </trans-unit>
+        <trans-unit id="Confirm" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <target state="new">Confirm</target>
+        </trans-unit>
+        <trans-unit id="EnterFive" translate="yes" xml:space="preserve">
+          <source>Enter five words</source>
+          <target state="new">Enter five words</target>
+        </trans-unit>
+        <trans-unit id="EnterIdea" translate="yes" xml:space="preserve">
+          <source>Enter idea name</source>
+          <target state="new">Enter idea name</target>
+        </trans-unit>
+        <trans-unit id="RelatedWordsDescribe" translate="yes" xml:space="preserve">
+          <source>In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project.</source>
+          <target state="new">In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

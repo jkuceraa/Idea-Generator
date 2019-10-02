@@ -123,6 +123,15 @@
   <data name="And" xml:space="preserve">
     <value>and</value>
   </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="EnterFive" xml:space="preserve">
+    <value>Enter five words</value>
+  </data>
+  <data name="EnterIdea" xml:space="preserve">
+    <value>Enter idea name</value>
+  </data>
   <data name="Favorite" xml:space="preserve">
     <value>Favorite</value>
   </data>
@@ -152,6 +161,9 @@
   </data>
   <data name="RelatedWords" xml:space="preserve">
     <value>Related words</value>
+  </data>
+  <data name="RelatedWordsDescribe" xml:space="preserve">
+    <value>In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project.</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>

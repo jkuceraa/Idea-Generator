@@ -79,6 +79,33 @@ namespace BrainstormingApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Confirm.
+        /// </summary>
+        internal static string Confirm {
+            get {
+                return ResourceManager.GetString("Confirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter five words.
+        /// </summary>
+        internal static string EnterFive {
+            get {
+                return ResourceManager.GetString("EnterFive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter idea name.
+        /// </summary>
+        internal static string EnterIdea {
+            get {
+                return ResourceManager.GetString("EnterIdea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Favorite.
         /// </summary>
         internal static string Favorite {
@@ -165,6 +192,15 @@ namespace BrainstormingApp.Resources {
         internal static string RelatedWords {
             get {
                 return ResourceManager.GetString("RelatedWords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project..
+        /// </summary>
+        internal static string RelatedWordsDescribe {
+            get {
+                return ResourceManager.GetString("RelatedWordsDescribe", resourceCulture);
             }
         }
         
