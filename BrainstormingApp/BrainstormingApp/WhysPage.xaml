@@ -18,7 +18,10 @@
                        x:Name="why"
                        IsVisible="False"/>
                 <Label x:Name="Summary"
-                       IsVisible="False"/>
+                       IsVisible="False"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Medium"
+                       HorizontalTextAlignment="Center"/>
                 <Label x:Name="idea"
                        Text="{translator:Translate WhatIdea}"
                        IsVisible="False"/>

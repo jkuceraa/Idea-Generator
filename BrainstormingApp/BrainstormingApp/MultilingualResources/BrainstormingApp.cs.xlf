@@ -40,91 +40,91 @@
         </trans-unit>
         <trans-unit id="And" translate="yes" xml:space="preserve">
           <source>and</source>
-          <target state="new">and</target>
+          <target state="translated">a</target>
         </trans-unit>
         <trans-unit id="MashUpNotEnough" translate="yes" xml:space="preserve">
           <source>You need at least two ideas to use this method.</source>
-          <target state="new">You need at least two ideas to use this method.</target>
+          <target state="translated">Potřebujete alespoň dva nápady k použití této metody.</target>
         </trans-unit>
         <trans-unit id="NewIdeaName" translate="yes" xml:space="preserve">
           <source>Enter the name of the new idea</source>
-          <target state="new">Enter the name of the new idea</target>
+          <target state="translated">Zadejte jméno nového nápadu.</target>
         </trans-unit>
         <trans-unit id="MashUpDescribe" translate="yes" xml:space="preserve">
           <source>Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two</source>
-          <target state="new">Mash up will suggest two random ideas from your list and you should try to generate an idea which is combined from the original two</target>
+          <target state="translated">Mash up navrhne dva náhodné nápady z vašeho seznamu a vy byste se měli pokusit vytvořit nápad, který je kombinací těchto dvou.</target>
         </trans-unit>
         <trans-unit id="RelatedWords" translate="yes" xml:space="preserve">
           <source>Related words</source>
-          <target state="new">Related words</target>
+          <target state="translated">Související slova</target>
         </trans-unit>
         <trans-unit id="Confirm" translate="yes" xml:space="preserve">
           <source>Confirm</source>
-          <target state="new">Confirm</target>
+          <target state="translated">Potvrdit</target>
         </trans-unit>
         <trans-unit id="EnterFive" translate="yes" xml:space="preserve">
           <source>Enter five words</source>
-          <target state="new">Enter five words</target>
+          <target state="translated">Zadejte pět slov</target>
         </trans-unit>
         <trans-unit id="EnterIdea" translate="yes" xml:space="preserve">
           <source>Enter idea name</source>
-          <target state="new">Enter idea name</target>
+          <target state="translated">Zadejte jméno nápadu</target>
         </trans-unit>
         <trans-unit id="RelatedWordsDescribe" translate="yes" xml:space="preserve">
           <source>In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project.</source>
-          <target state="new">In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project.</target>
+          <target state="translated">V této metodě prvně vymyslíte pět náhodných slov, souvisejících nebo nesouvisejících s vaším tématem. Potom budete generovat nápady, které jakýmkoli způsobem souvisí s kterýmkoli z těchto slov a s vaším projektem.</target>
         </trans-unit>
         <trans-unit id="Delete" translate="yes" xml:space="preserve">
           <source>Delete</source>
-          <target state="new">Delete</target>
+          <target state="translated">Smazat</target>
         </trans-unit>
         <trans-unit id="Update" translate="yes" xml:space="preserve">
           <source>Update</source>
-          <target state="new">Update</target>
+          <target state="translated">Aktualizovat</target>
         </trans-unit>
         <trans-unit id="Answer" translate="yes" xml:space="preserve">
           <source>Enter your answer.</source>
-          <target state="new">Enter your answer.</target>
+          <target state="translated">Zadejte odpověď.</target>
         </trans-unit>
         <trans-unit id="DescribeProblem" translate="yes" xml:space="preserve">
           <source>Describe your problem.</source>
-          <target state="new">Describe your problem.</target>
+          <target state="translated">Popište svůj nápad.</target>
         </trans-unit>
         <trans-unit id="FiveWhys" translate="yes" xml:space="preserve">
           <source>Five why's</source>
-          <target state="new">Five why's</target>
+          <target state="translated">Pět proč</target>
         </trans-unit>
         <trans-unit id="FiveWhysDescribe" translate="yes" xml:space="preserve">
           <source>This method will help you to generate ideas by going in depth with asking why five times before you get the actual idea.</source>
-          <target state="new">This method will help you to generate ideas by going in depth with asking why five times before you get the actual idea.</target>
+          <target state="translated">Tato metoda vám pomůže generovat nápady tím, že s vámi půjde do hloubky a bude se ptát proč pětkrát předtím, než se dostanete k samotnému nápadu.</target>
         </trans-unit>
         <trans-unit id="Submit" translate="yes" xml:space="preserve">
           <source>Submit</source>
-          <target state="new">Submit</target>
+          <target state="translated">Potvrdit</target>
         </trans-unit>
         <trans-unit id="WhatIdea" translate="yes" xml:space="preserve">
           <source>What idea does this give you?</source>
-          <target state="new">What idea does this give you?</target>
+          <target state="translated">Jaký vám toto dává nápad?</target>
         </trans-unit>
         <trans-unit id="Why" translate="yes" xml:space="preserve">
           <source>Why?</source>
-          <target state="new">Why?</target>
+          <target state="translated">Proč?</target>
         </trans-unit>
         <trans-unit id="CreatePage" translate="yes" xml:space="preserve">
           <source>Create</source>
-          <target state="new">Create</target>
+          <target state="translated">Vytvořit</target>
         </trans-unit>
         <trans-unit id="EditDeletePage" translate="yes" xml:space="preserve">
           <source>Edit or delete</source>
-          <target state="new">Edit or delete</target>
+          <target state="translated">Upravit nebo smazat</target>
         </trans-unit>
         <trans-unit id="DeleteAll" translate="yes" xml:space="preserve">
           <source>Delete all items</source>
-          <target state="new">Delete all items</target>
+          <target state="translated">Smazat všechny položky</target>
         </trans-unit>
         <trans-unit id="DeleteNonfavorite" translate="yes" xml:space="preserve">
           <source>Delete all but favorite items</source>
-          <target state="new">Delete all but favorite items</target>
+          <target state="translated">Smazat všechny kromě oblíbených</target>
         </trans-unit>
       </group>
     </body>

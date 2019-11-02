@@ -37,7 +37,8 @@ namespace BrainstormingApp
             }
             else
             {
-                Summary.Text += "\n" + idea.Text;
+                Summary.Text += "\n" + Answer.Text + "\n"+idea.Text;
+                Answer.Text = "";
                 SubmitButton.IsVisible = false;
                 AddButton.IsVisible = true;
             }
