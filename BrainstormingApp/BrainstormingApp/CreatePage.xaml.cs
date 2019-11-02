@@ -32,11 +32,7 @@ namespace BrainstormingApp
             {
 
                 conn.CreateTable<Idea>();
-                int rows = conn.Insert(newIdea);
-                if (rows > 0)
-                    DisplayAlert("Úspěch", "Data úspěšně přidána", "OK");
-                else
-                    DisplayAlert("Chyba", "Data nebylo možné přidat", "OK");
+                conn.Insert(newIdea);
             }
         }
     }

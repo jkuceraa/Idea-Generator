@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="BrainstormingApp.EditDeletePage"
-             xmlns:translator="clr-namespace:BrainstormingApp.Helpers">
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
+             Title="{translator:Translate EditDeletePage}">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand"
                      x:Name="containerCreatePage">

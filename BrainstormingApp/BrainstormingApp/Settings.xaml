@@ -3,11 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-            
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
              mc:Ignorable="d"
              x:Class="BrainstormingApp.Settings">
     <StackLayout>
-        
+        <Button Text="{translator:Translate DeleteNonfavorite}"
+                x:Name="DeleteNonfavorite"
+                Clicked="DeleteNonfavorite_Clicked"/>
+        <Button Text="{translator:Translate DeleteAll}"
+                x:Name="DeleteAll"
+                Clicked="DeleteAll_Clicked"/>
     </StackLayout>
     
 </ContentPage>

@@ -115,11 +115,38 @@ namespace BrainstormingApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Delete all items.
+        /// </summary>
+        internal static string DeleteAll {
+            get {
+                return ResourceManager.GetString("DeleteAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete all but favorite items.
+        /// </summary>
+        internal static string DeleteNonfavorite {
+            get {
+                return ResourceManager.GetString("DeleteNonfavorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Describe your problem..
         /// </summary>
         internal static string DescribeProblem {
             get {
                 return ResourceManager.GetString("DescribeProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit or delete.
+        /// </summary>
+        internal static string EditDeletePage {
+            get {
+                return ResourceManager.GetString("EditDeletePage", resourceCulture);
             }
         }
         

@@ -5,14 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="BrainstormingApp.RelatedPage"
-             xmlns:translator="clr-namespace:BrainstormingApp.Helpers">
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
+             Title="{translator:Translate RelatedWords}">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{translator:Translate RelatedWords}"
-                   FontAttributes="Bold"
-                   FontSize="Large"
-                   HorizontalOptions="Center"/>
-                <Label Text="{translator:Translate RelatedWordsDescribe}"
+            <Label Text="{translator:Translate RelatedWordsDescribe}"
                    HorizontalOptions="Center"/>
             <Entry Placeholder="{translator:Translate EnterFive}"
                    x:Name="WordsAdder"/>

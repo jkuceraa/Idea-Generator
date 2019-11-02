@@ -110,6 +110,22 @@
           <source>Why?</source>
           <target state="new">Why?</target>
         </trans-unit>
+        <trans-unit id="CreatePage" translate="yes" xml:space="preserve">
+          <source>Create</source>
+          <target state="new">Create</target>
+        </trans-unit>
+        <trans-unit id="EditDeletePage" translate="yes" xml:space="preserve">
+          <source>Edit or delete</source>
+          <target state="new">Edit or delete</target>
+        </trans-unit>
+        <trans-unit id="DeleteAll" translate="yes" xml:space="preserve">
+          <source>Delete all items</source>
+          <target state="new">Delete all items</target>
+        </trans-unit>
+        <trans-unit id="DeleteNonfavorite" translate="yes" xml:space="preserve">
+          <source>Delete all but favorite items</source>
+          <target state="new">Delete all but favorite items</target>
+        </trans-unit>
       </group>
     </body>
   </file>

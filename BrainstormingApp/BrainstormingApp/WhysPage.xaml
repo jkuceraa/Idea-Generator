@@ -5,14 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
-             x:Class="BrainstormingApp.WhysPage">
+             x:Class="BrainstormingApp.WhysPage"
+             Title="{translator:Translate FiveWhys}">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
-                <Label Text="{translator:Translate FiveWhys}"
-                   FontAttributes="Bold"
-                   FontSize="Large"
-                   HorizontalOptions="Center"/>
                 <Label Text="{translator:Translate FiveWhysDescribe}"
                    HorizontalOptions="Center"/>
                 <Entry Placeholder="{translator:Translate DescribeProblem}"

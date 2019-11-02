@@ -51,11 +51,7 @@ namespace BrainstormingApp
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
             {
                 conn.CreateTable<Idea>();
-                int rows = conn.Delete(idea);
-                if (rows > 0)
-                    DisplayAlert("Úspěch", "Data úspěšně přidána", "OK");
-                else
-                    DisplayAlert("Chyba", "Data nebylo možné přidat", "OK");
+                conn.Delete(idea);
             }
 
         }

@@ -135,8 +135,17 @@
   <data name="Delete" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>Delete all items</value>
+  </data>
+  <data name="DeleteNonfavorite" xml:space="preserve">
+    <value>Delete all but favorite items</value>
+  </data>
   <data name="DescribeProblem" xml:space="preserve">
     <value>Describe your problem.</value>
+  </data>
+  <data name="EditDeletePage" xml:space="preserve">
+    <value>Edit or delete</value>
   </data>
   <data name="EnterFive" xml:space="preserve">
     <value>Enter five words</value>

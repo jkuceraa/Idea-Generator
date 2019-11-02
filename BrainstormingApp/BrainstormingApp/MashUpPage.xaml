@@ -5,13 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
-             x:Class="BrainstormingApp.MashUpPage">
+             x:Class="BrainstormingApp.MashUpPage"
+             Title="{translator:Translate MashUp}">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center">
-            <Label Text="{translator:Translate MashUp}"
-                   FontAttributes="Bold"
-                   FontSize="Large"
-                   HorizontalOptions="Center"/>
             <Label Text="{translator:Translate MashUpDescribe}"
                    HorizontalOptions="Center"/>
             <Label Text="{translator:Translate MashUpNotEnough}"
