@@ -30,5 +30,10 @@ namespace BrainstormingApp
         {
             Navigation.PushAsync(new CreatePage());
         }
+
+        private void IdeaList_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            Navigation.PushAsync(new EditDeletePage(ideaList.SelectedItem as Idea));
+        }
     }
 }

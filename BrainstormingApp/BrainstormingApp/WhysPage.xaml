@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
+             x:Class="BrainstormingApp.WhysPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="{translator:Translate FiveWhys}"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+                <Label Text="{translator:Translate FiveWhysDescribe}"
+                   HorizontalOptions="Center"/>
+                <Entry Placeholder="{translator:Translate DescribeProblem}"
+                       x:Name="DescribeProblem"/>
+                <Label Text="{translator:Translate Why}"
+                       x:Name="why"
+                       IsVisible="False"/>
+                <Label x:Name="Summary"
+                       IsVisible="False"/>
+                <Label x:Name="idea"
+                       Text="{translator:Translate WhatIdea}"
+                       IsVisible="False"/>
+                <Entry Placeholder="{translator:Translate Answer}"
+                       x:Name="Answer"
+                       IsVisible="False"/>
+                <Button Text="{translator:Translate Submit}"
+                        x:Name="SubmitButton"
+                        Clicked="SubmitButton_Clicked"/>
+                <Button Text="{translator:Translate Add}"
+                        x:Name="AddButton"
+                        Clicked="AddButton_Clicked"
+                        IsVisible="False"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

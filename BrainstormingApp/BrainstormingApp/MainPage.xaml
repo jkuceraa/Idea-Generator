@@ -9,10 +9,11 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="addButton"
                      Text="{translator:Translate Add}"
-                     Clicked="AddButton_Clicked"/>
+                     Clicked="AddButton_Clicked"/>        
     </ContentPage.ToolbarItems>
     <StackLayout>
-        <ListView x:Name="ideaList">
+        <ListView x:Name="ideaList"
+                  ItemSelected="IdeaList_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell

@@ -79,11 +79,47 @@ namespace BrainstormingApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter your answer..
+        /// </summary>
+        internal static string Answer {
+            get {
+                return ResourceManager.GetString("Answer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirm.
         /// </summary>
         internal static string Confirm {
             get {
                 return ResourceManager.GetString("Confirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create.
+        /// </summary>
+        internal static string CreatePage {
+            get {
+                return ResourceManager.GetString("CreatePage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete.
+        /// </summary>
+        internal static string Delete {
+            get {
+                return ResourceManager.GetString("Delete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Describe your problem..
+        /// </summary>
+        internal static string DescribeProblem {
+            get {
+                return ResourceManager.GetString("DescribeProblem", resourceCulture);
             }
         }
         
@@ -111,6 +147,24 @@ namespace BrainstormingApp.Resources {
         internal static string Favorite {
             get {
                 return ResourceManager.GetString("Favorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Five why&apos;s.
+        /// </summary>
+        internal static string FiveWhys {
+            get {
+                return ResourceManager.GetString("FiveWhys", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This method will help you to generate ideas by going in depth with asking why five times before you get the actual idea..
+        /// </summary>
+        internal static string FiveWhysDescribe {
+            get {
+                return ResourceManager.GetString("FiveWhysDescribe", resourceCulture);
             }
         }
         
@@ -210,6 +264,42 @@ namespace BrainstormingApp.Resources {
         internal static string Settings {
             get {
                 return ResourceManager.GetString("Settings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submit.
+        /// </summary>
+        internal static string Submit {
+            get {
+                return ResourceManager.GetString("Submit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update.
+        /// </summary>
+        internal static string Update {
+            get {
+                return ResourceManager.GetString("Update", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What idea does this give you?.
+        /// </summary>
+        internal static string WhatIdea {
+            get {
+                return ResourceManager.GetString("WhatIdea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Why?.
+        /// </summary>
+        internal static string Why {
+            get {
+                return ResourceManager.GetString("Why", resourceCulture);
             }
         }
     }

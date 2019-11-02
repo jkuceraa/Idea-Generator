@@ -25,5 +25,10 @@ namespace BrainstormingApp
         {
             Navigation.PushAsync(new RelatedPage());
         }
+
+        private void FiveWhys_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WhysPage());
+        }
     }
 }

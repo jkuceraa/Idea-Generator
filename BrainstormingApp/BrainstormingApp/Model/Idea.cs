@@ -10,7 +10,7 @@ using Xamarin.Forms;
 
 namespace BrainstormingApp.Model
 {
-    class Idea
+    public class Idea
     {
         [PrimaryKey, AutoIncrement]
         public int Key { get; set; }

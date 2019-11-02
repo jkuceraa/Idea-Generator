@@ -123,8 +123,20 @@
   <data name="And" xml:space="preserve">
     <value>and</value>
   </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Enter your answer.</value>
+  </data>
   <data name="Confirm" xml:space="preserve">
     <value>Confirm</value>
+  </data>
+  <data name="CreatePage" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DescribeProblem" xml:space="preserve">
+    <value>Describe your problem.</value>
   </data>
   <data name="EnterFive" xml:space="preserve">
     <value>Enter five words</value>
@@ -134,6 +146,12 @@
   </data>
   <data name="Favorite" xml:space="preserve">
     <value>Favorite</value>
+  </data>
+  <data name="FiveWhys" xml:space="preserve">
+    <value>Five why's</value>
+  </data>
+  <data name="FiveWhysDescribe" xml:space="preserve">
+    <value>This method will help you to generate ideas by going in depth with asking why five times before you get the actual idea.</value>
   </data>
   <data name="IdeaDescription" xml:space="preserve">
     <value>Idea description</value>
@@ -167,5 +185,17 @@
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="WhatIdea" xml:space="preserve">
+    <value>What idea does this give you?</value>
+  </data>
+  <data name="Why" xml:space="preserve">
+    <value>Why?</value>
   </data>
 </root>

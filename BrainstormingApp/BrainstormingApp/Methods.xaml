@@ -14,7 +14,9 @@
           <Button Text="{translator:Translate RelatedWords}"
                     x:Name="RelatedButton"
                     Clicked="RelatedButton_Clicked"/>
-          
+            <Button Text="{translator:Translate FiveWhys}"
+                  x:Name="FiveWhys"
+                  Clicked="FiveWhys_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

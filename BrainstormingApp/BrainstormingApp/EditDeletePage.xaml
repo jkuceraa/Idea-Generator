@@ -4,9 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="BrainstormingApp.CreatePage"
-             xmlns:translator="clr-namespace:BrainstormingApp.Helpers"
-             Title="{translator:Translate CreatePage}">
+             x:Class="BrainstormingApp.EditDeletePage"
+             xmlns:translator="clr-namespace:BrainstormingApp.Helpers">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand"
                      x:Name="containerCreatePage">
@@ -23,10 +22,12 @@
                        VerticalOptions="CenterAndExpand"/>
                 <Switch x:Name="FavoriteSwitch"/>
             </Grid>
-            <Button x:Name="AddButton"
-                    Text="{translator:Translate Add}"
-                    Clicked="AddButton_Clicked"/>
+            <Button x:Name="UpdateButton"
+                    Text="{translator:Translate Update}"
+                    Clicked="UpdateButton_Clicked"/>
+            <Button x:Name="DeleteButton"
+                    Text="{translator:Translate Delete}"
+                    Clicked="DeleteButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
-

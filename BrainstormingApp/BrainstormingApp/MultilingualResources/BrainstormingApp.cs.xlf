@@ -74,6 +74,42 @@
           <source>In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project.</source>
           <target state="new">In this method, you will first think of any five words, related or unrelated to your topic. Then, you will generate ideas that are in any way linked to any of your words AND your project.</target>
         </trans-unit>
+        <trans-unit id="Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Delete</target>
+        </trans-unit>
+        <trans-unit id="Update" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target state="new">Update</target>
+        </trans-unit>
+        <trans-unit id="Answer" translate="yes" xml:space="preserve">
+          <source>Enter your answer.</source>
+          <target state="new">Enter your answer.</target>
+        </trans-unit>
+        <trans-unit id="DescribeProblem" translate="yes" xml:space="preserve">
+          <source>Describe your problem.</source>
+          <target state="new">Describe your problem.</target>
+        </trans-unit>
+        <trans-unit id="FiveWhys" translate="yes" xml:space="preserve">
+          <source>Five why's</source>
+          <target state="new">Five why's</target>
+        </trans-unit>
+        <trans-unit id="FiveWhysDescribe" translate="yes" xml:space="preserve">
+          <source>This method will help you to generate ideas by going in depth with asking why five times before you get the actual idea.</source>
+          <target state="new">This method will help you to generate ideas by going in depth with asking why five times before you get the actual idea.</target>
+        </trans-unit>
+        <trans-unit id="Submit" translate="yes" xml:space="preserve">
+          <source>Submit</source>
+          <target state="new">Submit</target>
+        </trans-unit>
+        <trans-unit id="WhatIdea" translate="yes" xml:space="preserve">
+          <source>What idea does this give you?</source>
+          <target state="new">What idea does this give you?</target>
+        </trans-unit>
+        <trans-unit id="Why" translate="yes" xml:space="preserve">
+          <source>Why?</source>
+          <target state="new">Why?</target>
+        </trans-unit>
       </group>
     </body>
   </file>
