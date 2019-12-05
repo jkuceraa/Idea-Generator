@@ -39,10 +39,7 @@ namespace BrainstormingApp
                 idea.Favorite = FavoriteSwitch.IsToggled;
                 conn.CreateTable<Idea>();
                 int rows = conn.Update(idea);
-                if (rows > 0)
-                    DisplayAlert("Úspěch", "Data úspěšně přidána", "OK");
-                else
-                    DisplayAlert("Chyba", "Data nebylo možné přidat", "OK");
+                Navigation.PopAsync();
             }
         }
 
@@ -52,6 +49,7 @@ namespace BrainstormingApp
             {
                 conn.CreateTable<Idea>();
                 conn.Delete(idea);
+                Navigation.PopAsync();
             }
 
         }

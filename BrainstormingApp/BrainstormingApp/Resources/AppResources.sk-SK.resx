@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>Oblíbený</value>
+  </data>
+  <data name="IdeaDescription" xml:space="preserve">
+    <value>Popis nápadu</value>
+  </data>
+  <data name="IdeaName" xml:space="preserve">
+    <value>Název nápadu</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Seznam</value>
+  </data>
+  <data name="Methods" xml:space="preserve">
+    <value>Metody</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="MashUpNotEnough" xml:space="preserve">
+    <value>Potřebujete alespoň dva nápady k použití této metody.</value>
+  </data>
+  <data name="NewIdeaName" xml:space="preserve">
+    <value>Zadejte jméno nového nápadu.</value>
+  </data>
+  <data name="MashUpDescribe" xml:space="preserve">
+    <value>Mash up navrhne dva náhodné nápady z vašeho seznamu a vy byste se měli pokusit vytvořit nápad, který je kombinací těchto dvou.</value>
+  </data>
+  <data name="RelatedWords" xml:space="preserve">
+    <value>Související slova</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Potvrdit</value>
+  </data>
+  <data name="EnterFive" xml:space="preserve">
+    <value>Zadejte pět slov</value>
+  </data>
+  <data name="EnterIdea" xml:space="preserve">
+    <value>Zadejte jméno nápadu</value>
+  </data>
+  <data name="RelatedWordsDescribe" xml:space="preserve">
+    <value>V této metodě prvně vymyslíte pět náhodných slov, souvisejících nebo nesouvisejících s vaším tématem. Potom budete generovat nápady, které jakýmkoli způsobem souvisí s kterýmkoli z těchto slov a s vaším projektem.</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Aktualizovat</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Zadejte odpověď.</value>
+  </data>
+  <data name="DescribeProblem" xml:space="preserve">
+    <value>Popište svůj nápad.</value>
+  </data>
+  <data name="FiveWhys" xml:space="preserve">
+    <value>Pět proč</value>
+  </data>
+  <data name="FiveWhysDescribe" xml:space="preserve">
+    <value>Tato metoda vám pomůže generovat nápady tím, že s vámi půjde do hloubky a bude se ptát proč pětkrát předtím, než se dostanete k samotnému nápadu.</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Potvrdit</value>
+  </data>
+  <data name="WhatIdea" xml:space="preserve">
+    <value>Jaký vám toto dává nápad?</value>
+  </data>
+  <data name="Why" xml:space="preserve">
+    <value>Proč?</value>
+  </data>
+  <data name="CreatePage" xml:space="preserve">
+    <value>Vytvořit</value>
+  </data>
+  <data name="EditDeletePage" xml:space="preserve">
+    <value>Upravit nebo smazat</value>
+  </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>Smazat všechny položky</value>
+  </data>
+  <data name="DeleteNonfavorite" xml:space="preserve">
+    <value>Smazat všechny kromě oblíbených</value>
+  </data>
+</root>

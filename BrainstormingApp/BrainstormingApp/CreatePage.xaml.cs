@@ -33,6 +33,7 @@ namespace BrainstormingApp
 
                 conn.CreateTable<Idea>();
                 conn.Insert(newIdea);
+                Navigation.PopAsync();
             }
         }
     }

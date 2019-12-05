@@ -12,7 +12,7 @@ namespace BrainstormingApp.Model
 {
     public class Idea
     {
-        [PrimaryKey, AutoIncrement]
+        [SQLite.PrimaryKey, SQLite.AutoIncrement]
         public int Key { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
