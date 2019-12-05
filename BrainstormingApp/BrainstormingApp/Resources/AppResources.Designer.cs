@@ -70,6 +70,15 @@ namespace BrainstormingApp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Added ideas:.
+        /// </summary>
+        internal static string AddedIdeas {
+            get {
+                return ResourceManager.GetString("AddedIdeas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to and.
         /// </summary>
         internal static string And {

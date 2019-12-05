@@ -10,6 +10,7 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center">
             <Label Text="{translator:Translate MashUpDescribe}"
+                   FontSize="Medium"
                    HorizontalOptions="Center"/>
             <Label Text="{translator:Translate MashUpNotEnough}"
                    HorizontalOptions="Center"

@@ -11,6 +11,7 @@
         <StackLayout>
             <StackLayout>
                 <Label Text="{translator:Translate FiveWhysDescribe}"
+                       FontSize="Medium"
                    HorizontalOptions="Center"/>
                 <Entry Placeholder="{translator:Translate DescribeProblem}"
                        x:Name="DescribeProblem"/>
@@ -35,7 +36,10 @@
                         x:Name="AddButton"
                         Clicked="AddButton_Clicked"
                         IsVisible="False"/>
-
+                <Label Text="{translator:Translate AddedIdeas}"
+                       HorizontalTextAlignment="Center"
+                        x:Name="IdeasField"
+                        IsVisible="False"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

@@ -99,4 +99,7 @@
   <data name="DeleteNonfavorite" xml:space="preserve">
     <value>Smazat všechny kromě oblíbených</value>
   </data>
+  <data name="AddedIdeas" xml:space="preserve">
+    <value>Přidané nápady:</value>
+  </data>
 </root>

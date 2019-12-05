@@ -10,6 +10,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="{translator:Translate RelatedWordsDescribe}"
+                   FontSize="Medium"
                    HorizontalOptions="Center"/>
             <Entry Placeholder="{translator:Translate EnterFive}"
                    x:Name="WordsAdder"/>

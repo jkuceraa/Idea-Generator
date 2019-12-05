@@ -41,6 +41,7 @@ namespace BrainstormingApp
                 Answer.Text = "";
                 SubmitButton.IsVisible = false;
                 AddButton.IsVisible = true;
+                IdeasField.IsVisible = true;
             }
         }
 
@@ -55,6 +56,7 @@ namespace BrainstormingApp
                 conn.CreateTable<Idea>();
                 conn.Insert(newidea);
             }
+            IdeasField.Text += "\n" + Answer.Text;
             Answer.Text = "";
         }
     }

@@ -126,6 +126,10 @@
           <source>Delete all but favorite items</source>
           <target state="translated">Smazat všechny kromě oblíbených</target>
         </trans-unit>
+        <trans-unit id="AddedIdeas" translate="yes" xml:space="preserve">
+          <source>Added ideas:</source>
+          <target state="translated">Přidané nápady:</target>
+        </trans-unit>
       </group>
     </body>
   </file>
